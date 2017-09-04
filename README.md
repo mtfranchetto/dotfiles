@@ -23,7 +23,6 @@ more.
       - [General](#general)
       - [Bash](#bash)      
       - [Homebrew](#homebrew)
-      - [Git](#git)
       - [Tar](#tar)
       - [Redis](#redis)
       - [Z](#z)

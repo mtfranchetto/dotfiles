@@ -23,9 +23,6 @@ export HISTIGNORE="..:...:c:h:l:l1:p:pwd:gst:gd:exit:* --help" # Exclude mundane
 # Aliases
 . "$HOME/.config/bash/aliases.sh"
 
-# Command Prompt (http://jonisalonen.com/2012/your-bash-prompt-needs-this)
-. "$HOME/.config/bash/prompt.sh"
-
 # Homebrew
 export HOMEBREW_NO_ANALYTICS=1
 export PATH="/usr/local/sbin:$PATH"

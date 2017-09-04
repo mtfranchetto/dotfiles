@@ -19,18 +19,11 @@
 # Databases
 *.dump
 
-# CTags
-.tags
-.tags_sorted_by_file
-
 # Bundler
 .bundle
 
 # RubyMine
 *.idea
-
-# Rubocop
-.rubocop-http*
 
 # SimpleCov
 coverage

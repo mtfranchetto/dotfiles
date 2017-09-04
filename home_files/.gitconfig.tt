@@ -90,8 +90,8 @@
   fsckobjects = true
 [url "https://github.com/"]
   insteadOf = gh:
-[url "https://github.com/bkuhlmann/"]
-  insteadOf = bk:
+[url "https://github.com/mtfranchetto/"]
+  insteadOf = mf:
 [url "https://git.heroku.com"]
   insteadOf = heroku:
 [remote "origin"]

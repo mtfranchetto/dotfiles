@@ -23,10 +23,6 @@ export HISTIGNORE="..:...:c:h:l:l1:p:pwd:gst:gd:exit:* --help" # Exclude mundane
 # Aliases
 . "$HOME/.config/bash/aliases.sh"
 
-# Functions
-. "$HOME/.config/bash/functions-private.sh"
-. "$HOME/.config/bash/functions-public.sh"
-
 # Command Prompt (http://jonisalonen.com/2012/your-bash-prompt-needs-this)
 . "$HOME/.config/bash/prompt.sh"
 
@@ -56,28 +52,8 @@ if [ -f "${HOME}/.gpg-agent-info" ]; then
   export SSH_AGENT_PID
 fi
 
-# Go
-if [[ -e /usr/local/bin/go ]]; then
-  export GOPATH=$HOME/Apps/Go
-  export PATH=$PATH:$GOPATH/bin:/usr/local/opt/go/libexec/bin
-fi
-
-# direnv
-if [[ -e /usr/local/bin/direnv ]]; then
-  eval "$(direnv hook bash)"
-fi
-
-# chruby
-if [[ -e /usr/local/share/chruby ]]; then
-  source /usr/local/share/chruby/chruby.sh
-  source /usr/local/share/chruby/auto.sh
-fi
-
 # Node.js
 export PATH="$PATH:/usr/local/share/npm/bin"
-
-# Yarn
-export PATH="$PATH:$(yarn global bin)"
 
 # Z
 if [[ -e /usr/local/etc/profile.d/z.sh ]]; then

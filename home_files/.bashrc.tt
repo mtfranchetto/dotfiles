@@ -56,3 +56,6 @@ export PATH="$PATH:/usr/local/share/npm/bin"
 if [[ -e /usr/local/etc/profile.d/z.sh ]]; then
   . /usr/local/etc/profile.d/z.sh
 fi
+
+# Fuck
+eval $(thefuck --alias)

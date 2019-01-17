@@ -1,3 +1,5 @@
 [user]
   name = Mattia Franchetto
   email = mt.franchetto@gmail.com
+[core]
+  pager = diff-so-fancy | less --tabs=4 -RFX
